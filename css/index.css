@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.App-left {
+  width: 40%;
+  height: 100%;
+  background-color: #2d2d2d;
+}
+
+.App-left .User > h3 {
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
