@@ -16,13 +16,26 @@ let data = Papa.parse('./src/data.csv', {
 
 function createUser(userData) {
 
+
+    
+
     let user = document.createElement("div");
     user.setAttribute("class", "User");
 
     let title = document.createElement("h3");
     title.innerHTML = userData.correo;
 
+    let colA = document.createElement("h3");
+    colA.innerHTML = userData.A;
+
+    let colB = document.createElement("h3");
+    colB.innerHTML = userData.B;
+
+
+
     user.appendChild(title);
+    user.appendChild(colA);
+    user.appendChild(colB);
     usersContainer.appendChild(user);
 }
 
